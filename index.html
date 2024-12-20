@@ -1,0 +1,652 @@
+<header class="header-wrapper" role="banner">
+  <nav class="header-container" role="navigation" aria-label="Main navigation">
+    <div class="portfolio-logo" role="heading" aria-level="1">Portfolio</div>
+    <div class="nav-links">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+  </div>
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/faaee86f46a95cd465d83d4ea1f4091e51f49318360aff0e44099432fa3b7ef2?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" class="header-divider" alt="" role="presentation" />
+  </nav>
+</header>
+<style>
+    body{
+      background-color:rgba(236, 246, 254, 1) ;
+    }
+    
+      .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        font-family: Syne, sans-serif;
+        color: rgba(56, 22, 100, 1);
+        white-space: nowrap;
+        padding: 0 48px;
+      }
+    
+      .header-container {
+        background-color: rgba(236, 246, 254, 1);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 0;
+        border-bottom: 3px solid purple;
+      }
+    
+      .portfolio-logo {
+        min-width: 240px;
+        min-height: 48px;
+        gap: 12px;
+        font-size: 42px;
+        font-weight: 800;
+        letter-spacing: -1.68px;
+        line-height: 1;
+        margin: auto 0;
+      }
+    
+      .nav-links {
+        z-index: 1;
+        display: flex;
+        min-width: 240px;
+        align-items: start;
+        gap: 32px;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: -0.28px;
+        line-height: 1;
+        justify-content: start;
+        margin: auto 0;
+      }
+    
+      .nav-link {
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+      }
+    
+      .nav-link:hover,
+      .nav-link:focus {
+        text-decoration: underline;
+      }
+    
+      .header-divider {
+        aspect-ratio: 1000;
+        object-fit: contain;
+        object-position: center;
+        width: 1440px;
+        align-self: start;
+        position: absolute;
+        z-index: 0;
+        min-width: 240px;
+        left: -48px;
+        right: -48px;
+        bottom: -1px;
+        height: 0;
+      }
+    
+      @media (max-width: 991px) {
+        .header-wrapper {
+          padding: 0 20px;
+          white-space: initial;
+        }
+    
+        .header-container {
+          max-width: 100%;
+          white-space: initial;
+        }
+    
+        .portfolio-logo {
+          white-space: initial;
+        }
+    
+        .nav-links {
+          max-width: 100%;
+          white-space: initial;
+        }
+    
+        .header-divider {
+          max-width: 100%;
+        }
+      }
+    </style>
+    
+    
+    <section class="hero-section" role="banner" aria-label="Portfolio Introduction">
+      <h1 class="hero-title">Discover My Work</h1>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1494ab69c05e1fdf9e4d0e2b6c9eceee1162726aa2931c70043c6273e1afaef5?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df"
+        class="hero-image"
+        alt="Portfolio showcase image"
+      >
+    </section>
+  
+    <style>
+      .hero-section {
+        background-color: rgba(236, 246, 254, 1);
+        display: flex;
+        flex-direction: column;
+        color: rgba(56, 22, 100, 1);
+        text-align: center;
+        letter-spacing: -2.4px;
+        justify-content: start;
+        padding: 96px 0;
+        font: 700 120px/1 Syne, sans-serif;
+      }
+    
+      .hero-title {
+        margin: 0;
+      }
+    
+      .hero-image {
+        aspect-ratio: 2;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        border-radius: 56px;
+        background-blend-mode: normal;
+        margin-top: 48px;
+      }
+    
+      @media (max-width: 991px) {
+        .hero-section {
+          font-size: 40px;
+        }
+    
+        .hero-title {
+          max-width: 100%;
+          font-size: 40px;
+        }
+    
+        .hero-image {
+          max-width: 100%;
+          margin-top: 40px;
+        }
+      }
+      </style>
+    
+    
+    
+    
+    <main class="portfolio-grid" role="main" aria-label="Portfolio Projects Grid">
+      <div class="portfolio-row">
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e0e9b601060ac461afaee69dead80aff54e29b9b9ba4e5e16801efaef746451e?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="Web Design Project 1 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 1</h2>
+            <p class="portfolio-category">Web Design</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/045b309659743803daba2d6a0709b6f007be11706f3c3c5a4d6085da119b6e4d?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="Graphic Design Project 2 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 2</h2>
+            <p class="portfolio-category">Graphic Design</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c372add88ddd643c3ddf366ca9178dba6c1ebd64588b117db5dba711504771ec?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="App Development Project 3 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 3</h2>
+            <p class="portfolio-category">App Development</p>
+          </div>
+        </article>
+      </div>
+      <div class="portfolio-row">
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c86a4c4ee640584b466b2c89ef16ca8a5c6a1813a7566affbaec0d865d4c1445?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="Photography Project 4 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 4</h2>
+            <p class="portfolio-category">Photography</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8d7267607f6b35063ba374049cb673235d7d65289b8cc8121a333e2a02496a28?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="Illustration Project 5 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 5</h2>
+            <p class="portfolio-category">Illustration</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6aa9a499d8039819f21595e28c4c1305b0f6d2196d3f7ff0bf58a8cfd33c560c?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="Branding Project 6 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 6</h2>
+            <p class="portfolio-category">Branding</p>
+          </div>
+        </article>
+      </div>
+      <div class="portfolio-row">
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d661ff818982fb6059c60ef26422560b9f8f1e3cbe68228319c95929b6ca4be8?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="UI/UX Design Project 7 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 7</h2>
+            <p class="portfolio-category">UI/UX Design</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7975ff63c6a989bc50edbaa3e725c98dd81afe4381b03339191f746f3ecd6ba2?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="Motion Graphics Project 8 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 8</h2>
+            <p class="portfolio-category">Motion Graphics</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d08db99a66534a2a39ad245f5e7b2ffd62e941ab7b04c85b68ed776b491fcb7?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="Animation Project 9 Preview" class="portfolio-image" />
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">Project 9</h2>
+            <p class="portfolio-category">Animation</p>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <style>
+      .portfolio-grid {
+        display: flex;
+        flex-direction: column;
+        font-family: Familjen Grotesk, sans-serif;
+        color: rgba(56, 22, 100, 1);
+      }
+      
+      .portfolio-row {
+        background-color: rgba(236, 246, 254, 1);
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        gap: 40px 48px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        padding: 48px 0;
+      }
+      
+      .portfolio-row:not(:first-child) {
+        padding-top: 0;
+      }
+      
+      .portfolio-item {
+        display: flex;
+        min-width: 240px;
+        min-height: 333px;
+        flex-direction: column;
+        flex: 1;
+        flex-basis: 0%;
+      }
+      
+      .portfolio-image {
+        aspect-ratio: 1.5;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        background-blend-mode: normal;
+        flex: 1;
+      }
+      
+      .portfolio-content {
+        display: flex;
+        margin-top: 8px;
+        width: 100%;
+        flex-direction: column;
+      }
+      
+      .portfolio-title {
+        font-size: 20px;
+        line-height: 1.2;
+      }
+      
+      .portfolio-category {
+        font-size: 17px;
+        line-height: 1;
+      }
+      
+      @media (max-width: 991px) {
+        .portfolio-row {
+          max-width: 100%;
+        }
+      }
+      
+      /* .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      } */
+      </style>
+      
+  
+      
+      <section class="about-section">
+        <div class="about-content" tabindex="0">
+          I am a creative professional with a passion for design and technology. My work
+          spans various disciplines, including web design, graphic design, and app
+          development.
+        </div>
+      </section>
+      <style>
+
+          .about-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .about-content {
+            flex: 1;
+            max-width: 900px;
+            background-color: rgba(236, 246, 254, 1);
+            overflow: hidden;
+            color: rgba(56, 22, 100, 1);
+            text-align: center;
+            letter-spacing: -0.48px;
+            padding: 96px;
+            font: 500 48px/52px Syne, sans-serif;
+            justify-content: center;
+            align-items: center;
+          }
+        
+          @media (max-width: 991px) {
+            .about-content {
+              max-width: 100%;
+              font-size: 40px;
+              line-height: 48px;
+            }
+          }
+        </style>
+        
+        
+        
+        
+        
+        <section class="services-section" aria-labelledby="services-heading">
+          <h2 id="services-heading" class="services-title">What I Do</h2>
+          
+          <div class="services-grid">
+            <div class="services-row">
+              <div class="service-item" tabindex="0">Web Design</div>
+              <div class="service-item" tabindex="0">Graphic Design</div>
+            </div>
+            
+            <div class="services-row">
+              <div class="service-item" tabindex="0">App Development</div>
+              <div class="service-item" tabindex="0">Photography</div>
+            </div>
+            
+            <div class="services-row">
+              <div class="service-item" tabindex="0">Illustration</div>
+              <div class="service-item" tabindex="0">Branding</div>
+            </div>
+            
+            <div class="services-row">
+              <div class="service-item" tabindex="0">UI/UX Design</div>
+              <div class="service-item" tabindex="0">Motion Graphics</div>
+            </div>
+            
+            <div class="services-row">
+              <div class="service-item" tabindex="0">Animation</div>
+            </div>
+          </div>
+        </section>
+        
+        <style>
+          .services-section {
+            background-color: rgba(236, 246, 254, 1);
+            display: flex;
+            align-items: flex-start;
+            gap: 40px 48px;
+            color: rgba(56, 22, 100, 1);
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            padding: 48px 0;
+          }
+        
+          .services-title {
+            letter-spacing: -0.28px;
+            flex: 1;
+            flex-basis: 0%;
+            font: 700 28px/1 Syne, sans-serif;
+          }
+        
+          .services-grid {
+            display: flex;
+            min-width: 240px;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+            flex-basis: 0%;
+            font: 400 20px/1.2 Familjen Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
+          }
+        
+          .services-row {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            gap: 40px 48px;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+          }
+        
+          .service-item {
+            flex: 1;
+            flex-basis: 0%;
+            margin: auto 0;
+          }
+        
+          @media (max-width: 991px) {
+            .services-title,
+            .services-grid,
+            .services-row {
+              max-width: 100%;
+            }
+            
+            .services-row {
+              white-space: initial;
+            }
+          }
+        </style>
+        
+  
+  
+  
+  
+        <section class="contact-section">
+          <div class="contact-container">
+            <div class="content-wrapper">
+              <div class="text-wrapper">
+                <h2 class="heading">Get in Touch</h2>
+                <p class="subheading">Interested in working together? Let's create something amazing.</p>
+              </div>
+              <button class="contact-button" type="button">Contact Me</button>
+            </div>
+          </div>
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c117c390ab1de2057ccce28dc984c3d1664319a6ef1ce2b0e48a06affe11a1c?placeholderIfAbsent=true&apiKey=0ba433a149784f2eab4c39494a31c5df" alt="" class="decorative-image" />
+        </section>
+        
+        <style>
+        
+          .contact-section {
+            background-color: rgba(236, 246, 254, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+        
+          .contact-container {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            padding: 254px 48px;
+          }
+        
+          .content-wrapper {
+            display: flex;
+            margin-bottom: -51px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+          }
+        
+          .text-wrapper {
+            display: flex;
+            justify-content: center;
+            max-width: 1260px;
+            flex-direction: column;
+            align-items: start;
+            color: rgba(56, 22, 100, 1);
+            text-align: center;
+          }
+        
+          .heading {
+            letter-spacing: -1.28px;
+            font: 700 64px/1 Syne, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+        
+          .subheading {
+            letter-spacing: -0.12px;
+            margin-top: 16px;
+            font: 400 24px/1 Familjen Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
+          }
+        
+          .contact-button {
+            border-radius: 8px;
+            background-color: rgba(68, 10, 143, 1);
+            width: 180px;
+            margin-top: 48px;
+            color: rgba(252, 250, 255, 1);
+            padding: 12px 24px;
+            font: 700 20px/1.2 Space Mono, sans-serif;
+            border: none;
+            cursor: pointer;
+          }
+        
+          .contact-button:hover {
+            opacity: 0.9;
+          }
+        
+          /* .contact-button:focus {
+            outline: 2px solid rgba(68, 10, 143, 1);
+            outline-offset: 2px;
+          }
+         */
+          .decorative-image {
+            aspect-ratio: 1000;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+          }
+        
+          @media (max-width: 991px) {
+            .contact-container {
+              max-width: 100%;
+              padding: 100px 20px;
+            }
+        
+            .content-wrapper {
+              max-width: 100%;
+              margin-bottom: 10px;
+            }
+        
+            .text-wrapper {
+              max-width: 100%;
+            }
+        
+            .heading {
+              max-width: 100%;
+              font-size: 40px;
+            }
+        
+            .subheading {
+              max-width: 100%;
+            }
+        
+            .contact-button {
+              margin-top: 40px;
+              padding: 12px 20px;
+            }
+        
+            .decorative-image {
+              max-width: 100%;
+            }
+          }
+        </style>
+        
+  
+  
+  
+  
+        <footer class="footer" role="contentinfo">
+          <div class="footer-wrapper">
+            <div class="footer-text">2023 Portfolio</div>
+            <button class="footer-button" type="button">Follow Me</button>
+          </div>
+        </footer>
+        
+        <style>
+  
+          .footer {
+            background-color: rgba(236, 246, 254, 1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            color: rgba(56, 22, 100, 1);
+            justify-content: start;
+            padding: 96px 0 24px;
+            border-top: 3px solid purple;
+          }
+        
+          .footer-wrapper {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            gap: 40px 100px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+          }
+        
+          .footer-text {
+            gap: 32px;
+            letter-spacing: -0.28px;
+            margin: auto 0;
+            font: 500 28px/1 Syne, sans-serif;
+          }
+        
+          .footer-button {
+            border-radius: 8px;
+            margin: auto 0;
+            padding: 12px 24px;
+            font: 700 20px/1.2 Space Mono, sans-serif;
+            border: 1px solid rgba(68, 10, 143, 1);
+            background: none;
+            cursor: pointer;
+          }
+        
+          .footer-button:hover{
+            background-color: rgba(68, 10, 143, 0.1);
+            outline: none;
+          }
+        
+          /* .footer-button:focus-visible {
+            outline: 2px solid rgba(68, 10, 143, 1);
+            outline-offset: 2px;
+          } */
+        
+          @media (max-width: 991px) {
+            .footer-wrapper {
+              max-width: 100%;
+            }
+            
+            .footer-button {
+              padding: 0 20px;
+            }
+          }
+        </style>
+        
